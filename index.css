@@ -1,0 +1,160 @@
+body{
+    background-color: rgb(31, 41, 55);
+    margin-top: 100px;
+    margin-left: 100px;
+}
+h2{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 70px;
+    margin-bottom: 0px;
+}
+
+span{
+    color: rgb(74, 223, 134);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 70px;
+
+}
+p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.generateButton{
+    height: 50px;
+    width: 250px;
+    background-color: rgb(74, 223, 134);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+hr{
+    width: 900px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 0px;
+    background-color: rgb(39, 53, 73);
+}
+
+#buto{
+    height: 50px;
+    width: 250px;
+    background-color: rgb(39, 53, 73);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-right: 50px;
+    color: rgb(74, 223, 134); 
+    cursor: pointer;
+    padding-left: 100px;
+
+}
+
+#butoo{
+    height: 50px;
+    width: 250px;
+    background-color: rgb(39, 53, 73);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-right: 50px;
+    color: rgb(74, 223, 134); 
+    cursor: pointer;
+    padding-left: 100px;
+
+}
+
+@media screen and (max-width: 500px) {
+
+    body{
+        background-color: rgb(31, 41, 55);
+        margin-top: 100px;
+        margin-left: 50px;
+        text-align: center;
+    }
+
+    h2{
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+        font-size: 50px;
+        margin-bottom: 0px;
+    }
+    
+    span{
+        color: rgb(74, 223, 134);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+        font-size: 50px;
+    
+    }
+
+    p{
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: lighter;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+
+    hr{
+        display: none;
+    }
+
+    .generateButton{
+        height: 50px;
+        width: 100%;
+        background-color: rgb(74, 223, 134);
+        color: white;
+        border-radius: 5px;
+        border: none;
+        margin-top: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        cursor: pointer;
+        margin-right: 50px;
+    }
+
+    #buto{
+        height: 50px;
+        width: 250px;
+        background-color: rgb(39, 53, 73);
+        color: white;
+        border-radius: 5px;
+        border: none;
+        margin-top: 30px;
+        margin-right: 50px;
+        color: rgb(74, 223, 134); 
+        cursor: pointer;
+        padding-left: 100px;
+    
+    }
+    
+    #butoo{
+        height: 50px;
+        width: 250px;
+        background-color: rgb(39, 53, 73);
+        color: white;
+        border-radius: 5px;
+        border: none;
+        margin-top: 10px;
+        margin-right: 50px;
+        color: rgb(74, 223, 134); 
+        cursor: pointer;
+        padding-left: 100px;
+    
+    }
+
+    
+}
